@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS DISPLAY</title>
+    <style>
+
+        body{
+            font-family: "Comic Sans MS",sans-serif;
+        }
+        div{
+            padding: 10px;
+            margin: 10px;
+        }
+        ul{
+            background-color: lightgreen;
+        }
+
+        span{
+            background-color: orange;
+            display: block;
+            margin: 5px;
+        }
+        li{
+            display: inline;
+            margin:5px;
+            background-color: #d7ab08;
+        }
+        .div_block a{
+            display: block;
+            background-color: green;
+            margin: 5px;
+            color: white;
+        }
+        input{
+            display: block;
+        }
+        h1{
+            display: none;
+        }
+        section{
+            width: 200px;
+            text-align: justify;
+            background-color: brown;
+            border: 2px  red;
+            margin: 10px;
+            display: inline-block;
+            padding: 10px;
+            box-shadow: 0 0 20px darkblue;
+        }
+        section:hover{
+            background-color: green;
+
+        }
+    </style>
+</head>
+<body>
+
+
+
+    <!-- DISPLAY INLINE -->
+    <div>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">CONTACT US</a></li>
+            <li><a href="#">CAREERS</a></li>
+        </ul>
+    </div>
+
+
+
+    <!-- Display Block -->
+    <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            <span >1. At aut beatae cum cumque dolore exercitationem facere in ipsum itaque, </span>
+            <span >2. iure libero maiores minus nisi odio sed temporibus totam veniam! Consequuntur!</span>
+            <span >3. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+            At aut beatae cum cumque dolore exercitationem facere in ipsum itaque,
+            iure libero maiores minus nisi odio sed temporibus totam veniam! Consequuntur!
+        </p>
+    </div>
+
+    <!-- DISPLAY BLOCK -->
+    <div class="div_block">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Careers</a>
+    </div>
+
+    <!-- DISPLAY BLOCK -->
+    <div>
+        <form>
+            <input type="text" placeholder="User Name">
+            <input type="password" placeholder="Password">
+            <input type="submit">
+        </form>
+    </div>
+
+    <!-- DISPLAY NONE / HIDDEN -->
+    <div>
+        <h1>I am Hidden</h1>
+    </div>
+    <!-- Display Inline-block -->
+    <div>
+    <section>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores ea in ipsam libero numquam porro quos rerum soluta ut! A accusantium adipisci aliquid amet aut beatae blanditiis delectus deleniti distinctio esse facere fugit harum in minus necessitatibus neque nobis obcaecati odio pariatur perspiciatis porro, quaerat reprehenderit similique sunt veritatis voluptatem!</p>
+    </section>
+    <section>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores ea in ipsam libero numquam porro quos rerum soluta ut! A accusantium adipisci aliquid amet aut beatae blanditiis delectus deleniti distinctio esse facere fugit harum in minus necessitatibus neque nobis obcaecati odio pariatur perspiciatis porro, quaerat reprehenderit similique sunt veritatis voluptatem!</p>
+    </section>
+    <section>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores ea in ipsam libero numquam porro quos rerum soluta ut! A accusantium adipisci aliquid amet aut beatae blanditiis delectus deleniti distinctio esse facere fugit harum in minus necessitatibus neque nobis obcaecati odio pariatur perspiciatis porro, quaerat reprehenderit similique sunt veritatis voluptatem!</p>
+    </section>
+    <section>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores ea in ipsam libero numquam porro quos rerum soluta ut! A accusantium adipisci aliquid amet aut beatae blanditiis delectus deleniti distinctio esse facere fugit harum in minus necessitatibus neque nobis obcaecati odio pariatur perspiciatis porro, quaerat reprehenderit similique sunt veritatis voluptatem!</p>
+    </section>
+    </div>
+</body>
+</html>
