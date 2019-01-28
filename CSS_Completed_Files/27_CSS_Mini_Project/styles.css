@@ -1,0 +1,220 @@
+/* Add Your Styles Here */
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: white url("images/image5.jpeg") no-repeat fixed top left ;
+}
+
+/* ------------------- Main Header ----------------- */
+.main-header{
+    background-image: url("images/technology.JPG");
+    color: white;
+    padding: 15px;
+    background-size: cover;
+    text-align: right;
+}
+
+/* ------------------- Main Navigation ----------------- */
+.main-nav{
+    background-color: black;
+    padding: 5px;
+}
+.main-nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    display: inline-block;
+}
+.main-nav a:hover{
+    background-color: #778262;
+}
+.main-nav a.active{
+    background-color: #61ce5c;
+}
+
+/* ----------------- Home News Section -------------- */
+.home-news-section{
+    width: 1100px;
+    margin-left: 150px;
+}
+.home-news-article{
+    border: 2px solid black;
+    width: 330px;
+    height: 500px;
+    text-align: center;
+    float: left;
+    margin: 5px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.home-news-article:hover{
+    width: 340px;
+    box-shadow: 0 0 15px black;
+}
+.home-news-article img{
+    width: inherit;
+}
+.home-news-text{
+    padding: 10px;
+}
+
+/* ---------------- Break ------------ */
+.break{
+    clear: both;
+}
+
+/* ------------------------ Main News Section ---------------- */
+.main-news-section{
+    width: 1100px;
+    margin: auto;
+}
+.main-news-article h2{
+    background: linear-gradient(to right , forestgreen,black,forestgreen);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0 0 15px black;
+}
+.zoom{
+    width: 600px;
+    height: 350px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 15px black;
+    overflow: hidden;
+}
+.zoom img{
+    width: inherit;
+    height: inherit;
+    border-radius: 15px;
+    transition: all 1s;
+}
+.zoom:hover img{
+    transform: scale(1.2,1.2);
+}
+.main-news-article p{
+    text-align: center;
+    font-size: 18px;
+}
+
+/* ------------- Main Footer -------------- */
+.main-footer{
+    background: linear-gradient(to right, #788364 , black , #788364);
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+.main-footer a{
+    color: orange;
+}
+
+/* ------------ Gallery Section ---------------- */
+.gallery-section{
+    margin-left: 10px;
+}
+.gallery-article{
+    border: 2px solid black;
+    width: 300px;
+    display: inline-block;
+    margin: 5px;
+    text-align: center;
+    padding: 7px;
+    border-radius: 10px;
+}
+.gallery-article:hover{
+    box-shadow: 0 0 15px black;
+}
+.gallery-zoom{
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.gallery-zoom img{
+    width: inherit;
+    height: inherit;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.gallery-zoom:hover img{
+    transform: scale(1.2,1.2);
+}
+.gallery-article figcaption{
+    padding: 10px;
+}
+
+/* ------------------ About Section ----------- */
+.about-section{
+    width: 1100px;
+    margin: auto;
+}
+.about-article{
+    background: black url("images/image5.jpeg") no-repeat scroll bottom;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px black;
+}
+.company-images{
+    text-align: center;
+}
+.company-images img{
+    width: 250px;
+    height: 150px;
+    border-radius: 15px;
+    margin: 5px;
+    box-shadow: 0 0 15px black;
+}
+
+/*-------------------- Contact Us-----------*/
+
+.contact-article{
+    width: 200px;
+    border-radius: 10px;
+    color: white;
+    margin: 100px auto;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    box-shadow: 0 0 15px black:
+}
+.contact-article h2{
+    padding: 10px;
+    margin-bottom: 0;
+}
+input[type="text"],input[type="email"]{
+    border: none;
+    color: white;
+    font-size: 15px;
+    width: 100px;
+    text-align: center;
+    border-bottom:3px solid #7c8767;
+    outline: none;
+    padding: 10px 20px;
+    background-color: transparent;
+}
+textarea{
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: transparent;
+    border:3px solid #7c8767;
+}
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-bottom: 3px solid white;
+}
+#submit{
+    border-radius: 50px;
+    font-size: 18px;
+    padding: 8px 35px;
+    margin: 15px 0 20px 0;
+    color: white;
+    border: none;
+    background-color: #7c8767;
+    margin-bottom: 10px;
+}
+#submit:hover{
+    background-color: #00aeef;
+    box-shadow: 0 0 10px black;
+}
